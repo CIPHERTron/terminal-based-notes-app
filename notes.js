@@ -38,22 +38,6 @@ const loadNotes = () => {
 
 }
 
-// Remove Functionality
-// const removeNote = function(title) {
-//  // console.log(title);
-//  const notes = loadNotes();
-
-//  const matchRemoveNote = [{}];
-//  notes.filter(function(note) {
-//   if(title !== note.title){
-//    matchRemoveNote.push({title: note.title, body: note.body});
-//   }
-//  })
-
-//  console.log(matchRemoveNote);
-//  saveNotes(matchRemoveNote);
-// }
-
 const removeNote = function(title) {
  const notes = loadNotes();
 

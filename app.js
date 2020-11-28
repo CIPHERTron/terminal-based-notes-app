@@ -1,19 +1,3 @@
-// const message = getNotes();
-// console.log(message);
-
-// console.log(chalk.black.bgBlue.bold('Success!'));
-
-// console.log(process.argv[2]);
-
-// const command = process.argv[2];
-
-// if (command === 'add') {
-//  console.log('add');
-// } else if(command === 'remove') {
-//  console.log('remove');
-// }
-
-
 const chalk = require('chalk');
 const { argv } = require('yargs');
 const yargs = require('yargs');
